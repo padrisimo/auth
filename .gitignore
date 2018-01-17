@@ -56,3 +56,6 @@ buck-out/
 # use the code bellow to reproduce a new file like:
 # android.useDeprecatedNdk=true
 android/gradle.properties
+
+# Sensitive Api Information here
+apiKey.js
