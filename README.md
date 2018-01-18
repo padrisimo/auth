@@ -27,7 +27,7 @@ After have a build on devide or simulator if u set the Debug server host in the 
 
 ### Misc
 
-U need 2 build an apikey.js file the root directory copyn the firebase config and exporting it becasue I ignore this file regarding security issues in a public repo. 
+U need 2 build an apikey.js file in the root directory with the the firebase config code and exporting it (as the example below) becasue I ignore this file regarding security issues in a public repo. 
 
 ```javascript
 export const apiKey = {
