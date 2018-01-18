@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Card, CardSectio, Input } from './common';
+import { Button, Card, CardSection, Input } from './common';
 
 class LoginForm extends Component {
     state = { text: '' };
@@ -8,7 +8,8 @@ class LoginForm extends Component {
         return (
             <Card>
                 <CardSection>
-                    <Input
+                    <Input 
+                        label="Email"
                         value={this.state.text}
                         onChangeText={text => this.setState({ text })}
                     />
